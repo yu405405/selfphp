@@ -1,4 +1,4 @@
 <?php
-//$message = 'こんにちは！';
-print $message ?? 'ノーコメント';
+$message = '先';
+print $message ?? null;
 //print isset($message) ? $message : 'ノーコメント';
