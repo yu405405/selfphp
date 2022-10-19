@@ -13,7 +13,11 @@ $assoc2 = [
 $result = $assoc1 + $assoc2;
 print_r($result);
 
+
 $ary1 = [1, 3, 5];
 $ary2 = [2, 3, 6];
 $result = $ary1 + $ary2;
+
+print_r($ary1);
+print_r($ary2);
 print_r($result);

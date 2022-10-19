@@ -1,3 +1,3 @@
 <?php
-$score = 75;
-print $score >= 70 ? '合格！' : '不合格...';
+$score = 78;
+print $score > 59 ? '合格です！' : '不合格です';
