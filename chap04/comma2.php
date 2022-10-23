@@ -1,4 +1,7 @@
 <?php
-for ($i = 1, $j = 1; $result = $i * $j, $i < 6; $i++, $j++) {
-  print "{$i}×{$j}＝{$result}<br />";
+$i = '';
+$j = '';
+$result = $i * $j;
+for($i = 0, $j = 0; $i < 23, $j < 23; $i++, $j++) {
+  print "{$i} × {$j} = {$result}です<br>";
 }
