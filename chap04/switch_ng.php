@@ -1,10 +1,10 @@
 <?php
 $exp = 'X';
-switch ($exp) {
+switch($exp) {
   case 0 :
-    print '値はゼロ。';
+    print '値はゼロ';
     break;
-  case 'X' :
-    print '値はエックス。';
+  case 'X':
+    print '値はエックス';
     break;
 }
