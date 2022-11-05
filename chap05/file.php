@@ -12,13 +12,14 @@
 </tr>
 <?php
 $file = file('access.log');
-foreach ($file as $fline) {
+
+foreach($file as $fline) {
   $line = explode("\t", $fline);
-  print '<tr>';
-  foreach ($line as $value) {
-    print '<td>' . $value . '</td>';
+  print "<tr>";
+  foreach($line as $value) {
+    print "<td>" . $value . "</td>";
   }
-  print '</tr>';
+  print "</tr>";
 }
 ?>
 </table>
