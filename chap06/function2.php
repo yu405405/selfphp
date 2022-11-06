@@ -1,10 +1,7 @@
 <?php
-//declare(strict_types=1);
-function getTriangleArea(float $base, float $height): float {
-  return $base * $height / 2;
+// declare(strict_types = 1);
+function getTriangle(float $base, float $height): float {
+  return $base * $height;
 }
-
-$area = getTriangleArea(8, 10);
-//$area = getTriangleArea(8, 'x');
-//$area = getTriangleArea(8, '10');
+$area = getTriangle(8, "10");
 print "三角形の面積は{$area}です。";
