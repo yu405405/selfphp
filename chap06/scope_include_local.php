@@ -1,5 +1,5 @@
 <?php
-function checkScope(): string {
+function checkScope() :string {
   require_once 'scope_included.php';
   return $scope;
 }
