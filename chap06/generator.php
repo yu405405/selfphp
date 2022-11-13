@@ -6,5 +6,5 @@ function myGen() {
 }
 
 foreach(myGen() as $value) {
-  print $value.'<br />';
-} 
+  print "{$value} <br>";
+}

@@ -2,6 +2,6 @@
 $area = getTriangleArea(8, 10);
 print "三角形の面積は{$area}です。";
 
-function getTriangleArea(float $base, float $height): float {
+function getTriangleArea($base, $height) {
   return $base * $height / 2;
 }

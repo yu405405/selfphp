@@ -8,4 +8,8 @@ print checkStatic();
 print '<br />';
 print checkStatic();
 print '<br />';
+print checkStatic();
+print '<br />';
+print checkStatic();
+print '<br />';
 print $x;
