@@ -14,5 +14,5 @@ function readLines(string $path) {
 }
 
 foreach(readFiles(['sample.dat', 'sample2.dat']) as $line) {
-  print $line.'<br />';
+  print $line . '<br>';
 }
