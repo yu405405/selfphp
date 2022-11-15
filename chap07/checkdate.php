@@ -1,9 +1,10 @@
 <?php
 function calendar($year, $month) {
-  for ($i = 1; $i < 32; $i++) {
-    if (checkdate($month, $i, $year)) { print "{$i} &nbsp;"; }
+  for($i = 1; $i < 32; $i++) {
+    if(checkdate($month, $i, $year)) {
+      print "{$i} &nbsp;";
+    }
   }
 }
-
-print '2016年2月のカレンダ：<br />';
+print "2016年2月のカレンダー:<br>";
 calendar(2016, 2);
