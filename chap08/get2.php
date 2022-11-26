@@ -6,6 +6,7 @@
 <title>クエリ情報</title>
 </head>
 <body>
-こんにちは、<?=e($_GET['name']) ?>さん！
+こんにちは、<?=e($_GET['name']) ?>さん！<br>
+こんばんは、<?=e($_GET['name']) ?>さん！！！
 </body>
 </html>
