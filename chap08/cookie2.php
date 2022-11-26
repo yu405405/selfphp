@@ -1,4 +1,7 @@
-<?php setcookie('email', $_POST['email'], time() + (60 * 60 * 24 * 90)); ?>
+<!-- <?php setcookie('email', $_POST['email'], time() + (60 * 60 * 24 * 90)); ?> -->
+<?php
+ setcookie('email', $_POST['email'], time() + (60 * 60 * 24 * 90));
+?>
 <!DOCTYPE html>
 <html>
 <head>

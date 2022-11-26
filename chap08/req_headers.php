@@ -8,16 +8,14 @@
 <body>
 <table border="1">
 <?php
-foreach($_SERVER as $key => $value) {
-  if (mb_strpos($key, 'HTTP_') === 0) {
+  foreach($_SERVER as $key => $value) {
 ?>
-  <tr valign="top">
-  <th><?=e($key) ?></th>
-  <td><?=e($value) ?></td>
+  <tr valigh="top">
+    <th><?=e($key) ?></th>
+    <td><?=e($value) ?></td>
   </tr>
 <?php
   }
-}
 ?>
 </table>
 </body>

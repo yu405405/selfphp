@@ -1,4 +1,6 @@
 <?php
+// session_start();
+// $_SESSION['email'] = $_POST['email'];
 session_start();
 $_SESSION['email'] = $_POST['email'];
 ?>

@@ -6,6 +6,6 @@
 <title>クエリ情報</title>
 </head>
 <body>
-<?=e($_GET['keyword']) ?>
+    <?=e($_GET['keyword']) ?>
 </body>
 </html>
