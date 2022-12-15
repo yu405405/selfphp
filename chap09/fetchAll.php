@@ -3,5 +3,5 @@
 require_once '../DbManager.php';
 
 $db = getDb();
-$stt = $db->query('SELECT * FROM book ORDER BY published DESC');
+$stt = $db->query('SELECT * FROM member ORDER BY id DESC');
 print_r($stt->fetchAll(PDO::FETCH_ASSOC));
