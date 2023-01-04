@@ -2,8 +2,17 @@
 require_once 'BusinessPerson.php';
 
 class HetareBusinessPerson extends BusinessPerson {
-  public function work () {
+  public function work() {
     parent::work();
-    print 'ただし、ボチボチと…';
+    print "ただし、ぼちぼちと…";
   }
 }
+
+// require_once 'BusinessPerson.php';
+
+// class HetareBusinessPerson extends BusinessPerson {
+//   public function work () {
+//     parent::work();
+//     print 'ただし、ボチボチと…';
+//   }
+// }

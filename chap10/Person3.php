@@ -4,7 +4,6 @@ class Person {
   public $lastName;
 
   public function show() {
-//  private function show() {
-    print "<p>ボクの名前は{$this->lastName}{$this->firstName}です。</p>";
+    print "<p>僕の名前は{$this->lastName}{$this->firstName}ですよ</p>";
   }
 }
