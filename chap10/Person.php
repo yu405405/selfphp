@@ -15,11 +15,20 @@ class Person {
   public function __toString() {
     return $this->lastName.$this->firstName;
   }
+  // public function __toString() {
+  //   return $this->lastName.$this->firstName;
+  // }
 
   public function __debugInfo() {
     return [
-        '名' => $this->firstName,
-        '性' => $this->lastName
-    ];      
+      '名' => $this->firstName,
+      '姓' => $this->lastName
+    ];
   }
+  // public function __debugInfo() {
+  //   return [
+  //       '名' => $this->firstName,
+  //       '性' => $this->lastName
+  //   ];      
+  // }
 }

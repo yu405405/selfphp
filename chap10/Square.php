@@ -1,4 +1,5 @@
 <?php
+
 require_once 'Figure.php';
 
 class Square extends Figure {
@@ -6,3 +7,11 @@ class Square extends Figure {
     return $this->width * $this->height;
   }
 }
+
+// require_once 'Figure.php';
+
+// class Square extends Figure {
+//   public function getArea(): float {
+//     return $this->width * $this->height;
+//   }
+// }

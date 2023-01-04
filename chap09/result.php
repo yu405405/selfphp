@@ -11,22 +11,24 @@ require_once '../Encode.php';
 <body>
 <table border="1">
 <tr>
-  <th>ISBNコード</th><th>書名</th><th>価格</th><th>出版社</th><th>刊行日</th>
+  <th>id</th><th>名前</th><th>性別</th><th>年齢</th><th>入会日</th>
 </tr>
 <?php
 try {
   $db = getDb();
-  $stt = $db->prepare('SELECT * FROM book ORDER BY published DESC');
+  $stt = $db->prepare('SELECT * FROM member ORDER BY id DESC');
   $stt->execute();
-  while($row = $stt->fetch(PDO::FETCH_ASSOC)) {
+  $stt->setFetchMode(PDO::FETCH_ASSOC);
+  foreach($stt as $row) {
+  // while($row = $stt->fetch(PDO::FETCH_ASSOC)) {
   //foreach($stt as $row) { 
 ?>
   <tr>
-    <td><?=e($row['isbn']) ?></td>
-    <td><?=e($row['title']) ?></td>
-    <td><?=e($row['price']) ?>円</td>
-    <td><?=e($row['publish']) ?></td>
-    <td><?=e($row['published']) ?></td>
+    <td><?=e($row['id']) ?></td>
+    <td><?=e($row['nam']) ?></td>
+    <td><?=e($row['sex']) ?></td>
+    <td><?=e($row['old']) ?></td>
+    <td><?=e($row['enter']) ?></td>
   </tr>
 <?php
   }

@@ -7,7 +7,8 @@ if ($_FILES['upfile']['error'] !== UPLOAD_ERR_OK) {
     UPLOAD_ERR_INI_SIZE => 'php.iniのupload_max_filesize制限を越えています。',
     UPLOAD_ERR_FORM_SIZE => 'HTMLのMAX_FILE_SIZE 制限を越えています。',
     UPLOAD_ERR_PARTIAL => 'ファイルが一部しかアップロードされていません。',
-    UPLOAD_ERR_NO_FILE => 'ファイルはアップロードされませんでした。',
+    UPLOAD_ERR_NO_FILE => 'ファイルはアップロードされません
+    でした。',
     UPLOAD_ERR_NO_TMP_DIR => '一時保存フォルダが存在しません。',
     UPLOAD_ERR_CANT_WRITE => 'ディスクへの書き込みに失敗しました。',
     UPLOAD_ERR_EXTENSION => '拡張モジュールによってアップロードが中断されました。'
